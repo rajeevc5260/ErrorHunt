@@ -46,7 +46,7 @@ app.use("/authors", authorsRouter);
 
 app.get("/", function (req, res) {
   res.render("index", {
-    nav,
+    nav, // part #2
   });
 });
 
