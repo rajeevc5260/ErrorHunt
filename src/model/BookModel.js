@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 // mongoose.connect('mongodb://localhost:27017/Library');
-const url = "mongodb+srv://rajeevc:rajeev321@cluster0.w68gpom.mongodb.net/Library";
+const url = "mongodb://localhost:27017/Library";
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }); //part #2
 
 const Schema = mongoose.Schema;
