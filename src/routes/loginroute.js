@@ -8,7 +8,7 @@ loginRouter.get("/", function (req, res) {
 
 loginRouter.get("/check", function (req, res) {
   var checkuser = {
-    uid: req.body("uid"),
+    uid: req.body("uid"), // part 2 10th
     pwd: req.body("pwd"),
   };
 
