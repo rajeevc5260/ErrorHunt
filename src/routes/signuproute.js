@@ -8,8 +8,8 @@ signupRouter.get("/", function (req, res) {
 
 signupRouter.get("/adduser", function (req, res) {
   var newuser = {
-    uid: req.param("uid"), // part 2 10th
-    pwd: req.param("pwd"),
+    uid: req.params.uid, // part 2 10th
+    pwd: req.params.pwd,
   };
   console.log(newuser);
   user.push(newuser);
